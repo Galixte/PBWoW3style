@@ -1,5 +1,5 @@
 
-## pbwow3_tbc
+## pbwow3_xmas
 
 Author @Sajaki
 
@@ -11,5 +11,5 @@ Author @Sajaki
 
 ## Changes
 3.2.9 (02-02-2020)
-- updated from phpBB 3.2.8 to 3.2.9 (added readme)
+- updated from phpBB 3.2.8 to 3.2.9 (cfg file)
 

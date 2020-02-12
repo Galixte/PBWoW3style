@@ -4,12 +4,12 @@ jQuery(function($) {
 
 	if($(window).width() >= 1300) {
 		var v = '<video id="video-element1" preload="auto" autoplay="true" loop="loop">';
-		v += '<source src="{T_THEME_PATH}/videos/left.mp4" type="video/mp4">';
-		v += '<source src="{T_THEME_PATH}/videos/left.webm" type="video/webm">';
+		v += '<source src="{{ T_THEME_PATH }}/videos/left.mp4" type="video/mp4">';
+		v += '<source src="{{ T_THEME_PATH }}/videos/left.webm" type="video/webm">';
 		v += '</video>';
 		v += '<video id="video-element2" preload="auto" autoplay="true" loop="loop">';
-		v += '<source src="{T_THEME_PATH}/videos/right.mp4" type="video/mp4">';
-		v += '<source src="{T_THEME_PATH}/videos/right.webm" type="video/webm">';
+		v += '<source src="{{ T_THEME_PATH }}/videos/right.mp4" type="video/mp4">';
+		v += '<source src="{{ T_THEME_PATH }}/videos/right.webm" type="video/webm">';
 		v += '</video>';
 
 		var $videoContainer = $('#video-container');
